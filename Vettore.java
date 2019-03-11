@@ -11,8 +11,8 @@ public class Vettore {
     		numeri[i]= input.nextInt();
     	}
     	System.out.println("Il risultato e':");
-    	for(int i=0;i<10;i++)
-    		System.out.println(numeri[i]);
+    	for(int n : numeri)
+    		System.out.println(n);
     	
     }
 }
